@@ -1,0 +1,254 @@
+body .img{
+    animation:  .5ms;
+}
+footer{
+    padding: 10px 0px;
+}
+/* home */
+.home{
+    position: relative;
+    margin-top: 8em;
+    
+}    
+.bg{
+    color: rgb(230, 230, 230);;
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home h1{
+    font-size: 150px;
+    font-family: lusitana;
+    font-weight: 700;
+    padding: 0em 0em;
+}
+
+.isi{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.tahun {
+    width: 850px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.garis{
+    width: 560px;
+    height: 2px;
+    background-color: black;
+    bottom: 0px;
+}
+.detail{
+    margin: 0em 1em;
+    font-family: raleway;
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+.profesi{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;   
+    width: 100%;
+    padding: 0px 210px;
+    box-sizing : border-box;
+}
+.profesi p{
+    font-family: raleway;
+    font-size: 15px;
+    
+    
+}
+/* end home */
+
+
+/* project */
+.project1 p{
+    font-family: Lusitana;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.project2{
+    font-family: Lusitana;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+
+.projectp{
+    font-family: Lusitana;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.foto{
+    transition: 1s;
+}
+
+.foto:hover img{
+    transform: scale(1.1);
+    z-index: 1 ;
+}
+
+.fotoP{
+    transition: 1s ease-in-out;
+}
+
+.fotoP:hover{
+    transform: scale(.7);
+ 
+}
+/* end project */
+
+/* contact */
+.contact h2{
+    font-family: raleway;
+    font-weight: 700;   
+}
+
+.contact button label{
+    font-family: raleway;
+}
+.sosmed{
+    display: flex;
+
+}
+.instagram{
+    font-size: 1.1em;
+    
+}
+.loc{
+    font-size: 1.1em;
+    
+}
+.wa{
+    font-size: 1.1em;
+    
+}
+/* end contact */
+/* about */
+.about h1{
+    font-size: 5rem;
+    font-family: raleway;
+    font-weight: 700;
+
+}
+
+.about p{
+    font-size: 1.3em;
+    font-family: Lusitana;
+}
+
+.nav-link.active{
+    font-weight: 700;
+
+}
+
+.row hr.line{ 
+    height: 2px;
+    border: none;
+    border-radius: 10px;
+    color: antiquewhite;
+    opacity: 1;
+ 
+}
+
+.cv{
+    background-color: #121212;
+    color: rgb(230, 230, 230);
+}
+
+
+.cv h1{
+    font-family: lusitana;
+    font-weight: 700;
+}
+
+.cv h6{
+    font-weight: 400    ;
+}
+
+.cv p{
+    font-family: lusitana;
+    font-size: 28px;
+    font-weight: 700;
+    
+}
+
+/* end about */
+
+/* animation */
+/* home */
+.home {
+    animation: transitionIn 1s;
+
+} 
+
+
+
+.about {
+    animation: transitionIn 1s;
+
+} 
+
+
+
+.contact{
+    animation: transitionIn 1s;
+
+} 
+
+
+.project1{
+    animation: transitionIn 1s;
+
+} 
+
+.project2{
+    animation: transitionIn 1.5s;
+
+} 
+
+.projectp{
+    animation: transitionIn 1s;
+
+} 
+svg{
+    animation: transitionIn 1.8s;
+}
+
+@keyframes gambar{
+    from{
+        opacity: 0;
+        
+    
+    }
+
+    to{
+        opacity: 1;
+        
+    }
+}
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: translateY(-10px);
+    
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+/* end animation */
