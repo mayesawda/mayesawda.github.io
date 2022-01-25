@@ -1,10 +1,29 @@
-body .img{
-    animation:  .5ms;
-}
+
 footer{
     padding: 10px 0px;
 }
 /* home */
+
+/* mobile */
+@media (max-width:720px) { 
+    .home{
+        padding-top: 10em;
+        font-size: .3em;
+        display: flex;
+    }
+
+    .garis{
+        font-size: .61em;
+    }
+
+    .profesi{
+        font-size: .7em;
+        
+        
+    }
+}
+
+
 .home{
     position: relative;
     margin-top: 8em;
@@ -19,7 +38,7 @@ footer{
 }
 
 .home h1{
-    font-size: 150px;
+    font-size: 9.3em;
     font-family: lusitana;
     font-weight: 700;
     padding: 0em 0em;
@@ -40,10 +59,10 @@ footer{
 }
 
 .garis{
-    width: 560px;
-    height: 2px;
+    width: 35em;
+    height: .1em;
     background-color: black;
-    bottom: 0px;
+    bottom: 0em;
 }
 .detail{
     margin: 0em 1em;
@@ -57,12 +76,12 @@ footer{
     justify-content:space-between;
     align-items: center;   
     width: 100%;
-    padding: 0px 210px;
+    padding: 0px 12.4em;
     box-sizing : border-box;
 }
 .profesi p{
     font-family: raleway;
-    font-size: 15px;
+    font-size: 1em;
     
     
 }
@@ -70,6 +89,20 @@ footer{
 
 
 /* project */
+
+.box{
+    overflow: hidden;
+}
+.box img{
+    width: 100%;
+    height: 100% ;
+    transition: .5s ease-out;
+    
+    
+}
+.box:hover img {
+    transform: scale(1.3)
+}
 .project1 p{
     font-family: Lusitana;
     font-size: 28px;
@@ -89,23 +122,6 @@ footer{
     font-weight: 700;
 }
 
-.foto{
-    transition: 1s;
-}
-
-.foto:hover img{
-    transform: scale(1.1);
-    z-index: 1 ;
-}
-
-.fotoP{
-    transition: 1s ease-in-out;
-}
-
-.fotoP:hover{
-    transform: scale(.7);
- 
-}
 /* end project */
 
 /* contact */
@@ -132,6 +148,11 @@ footer{
 .wa{
     font-size: 1.1em;
     
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
 }
 /* end contact */
 /* about */
