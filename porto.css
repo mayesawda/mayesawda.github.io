@@ -212,6 +212,13 @@ footer{
     animation: transitionIn 1s;
 
 } 
+.isi{
+    animation: transitionIn 2s;
+}
+
+.profesi{
+    animation: transitionIn 2.5s;
+}
 
 
 
